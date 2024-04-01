@@ -34,15 +34,3 @@ def send_email(email_senders_list, passwords_container, index_of_sender, email_r
 
     print("All emails sent successfully!")
 
-
-# # Example usage:
-# if __name__ == "__main__":
-#     from Credential import email_senders, passwords
-#
-#     # Index of the desired sender
-#     selected_sender_index = 0  # Change this index as needed
-#
-#     # List of email receivers
-#     email_receivers = ['mubeenqamar29@gmail.com', 'digilogpk@gmail.com']
-#
-#     send_email(email_senders, passwords, selected_sender_index, email_receivers)
